@@ -1,4 +1,5 @@
-def filter_even_numbers(numbers):
+def filter_even_numbers(numbers: list[int]) -> list[int]:
+    """Return only even numbers from the given list."""
     return list(filter(lambda number: number % 2 == 0, numbers))
 
 
